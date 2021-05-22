@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ESPN" />
+        <module name="Amazon" />
+        <module name="Generic" />
+        <module name="EbaySite" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="booking" target="1.8" />
+      <module name="com.Generic" target="1.8" />
+      <module name="Ebay" target="11" />
+      <module name="Ebay2" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
